@@ -1,4 +1,6 @@
 <template>
+<div>
+  23232
   <div id="appmain">
     <!-- <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -6,7 +8,8 @@
     </div> -->
     <a href="/edu">微应用跳转</a>
 
-    <router-view />
+    <router-view  />
+  </div>
   </div>
 </template>
 

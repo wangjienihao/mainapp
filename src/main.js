@@ -13,9 +13,9 @@ new Vue({
 registerMicroApps([
   {
     name: 'subproject1', // 子应用名称
-    entry: '//localhost:9528', // 子应用入口
-    container: '#appmain', // 子应用所在容器
-    activeRule: '/edu' // 子应用触发规则（路径）
+    entry: '//localhost:9528/edu', // 子应用入口
+    container: '#appMain', // 子应用所在容器
+    activeRule: '/admin' // 子应用触发规则（路径）
   }
 ], {
   beforeLoad: app => {
